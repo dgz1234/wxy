@@ -57,7 +57,7 @@ EOF
 }
 
 
-wget -O /usr/local/bin/hysteria https://download.hysteria.network/app/latest/hysteria-linux-amd64  --no-check-certificate
+wget -O /usr/local/bin/hysteria https://github.com/dgz1234/wxy/raw/refs/heads/main/hysteria-linux-amd64  --no-check-certificate
 chmod +x /usr/local/bin/hysteria
 
 mkdir -p /etc/hysteria/
