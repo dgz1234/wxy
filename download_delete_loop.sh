@@ -8,7 +8,7 @@ while true; do
         DOWNLOAD_URL="${BASE_URL}${FILENAME}"
 
         echo "Downloading ${FILENAME}..."
-        if wget "${DOWNLOAD_URL}" -O "${FILENAME}"; then
+        if wget --no-check-certificate "${DOWNLOAD_URL}" -O "${FILENAME}"; then
             echo "Download of ${FILENAME} complete."
             echo "Deleting ${FILENAME}..."
             rm "${FILENAME}"
