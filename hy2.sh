@@ -10,7 +10,7 @@ GENPASS="$(generate_random_password)"
 
 echo_hysteria_config_yaml() {
   cat << EOF
-listen: :36711
+listen: :46711
 
 
 #有域名，使用CA证书
